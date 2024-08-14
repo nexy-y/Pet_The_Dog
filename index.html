@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet the Dog</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>PET THE DOG</h1>
+    </div>
+    <div class="menu-container">
+        <div class="betting-menu">
+            <label for="bet-amount">Bet Amount ($Dorge):</label>
+            <input type="number" id="bet-amount" min="1" max="1000" step="1" value="10">
+            <button id="start-game">Start Game</button>
+        </div>
+    </div>
+    <div class="game-container">
+        <div class="dog-container">
+            <img id="dog1" class="dog" src="Untitled design (6).png" alt="Dog 1">
+            <img id="dog2" class="dog" src="Untitled design (5).png" alt="Dog 2">
+        </div>
+        <img id="dog-food" class="dog-food" src="bowl.png" alt="Bowl of Dog Food">
+        <div id="result" class="result"></div>
+        <div id="subtitle" class="subtitle">Subtitle goes here</div>
+    </div>
+    <div class="blood-effect" id="blood-effect"></div>
+    <audio id="happy-sound" src="crowdyayapplause25ppllong-6948.mp3" preload="auto"></audio>
+    <audio id="attack-sound" src="horror-piano-hits-73998 (mp3cut.net).mp3" preload="auto"></audio>
+    <audio id="attack-sound2" src="sword-slash-and-swing-185432.mp3" preload="auto"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
